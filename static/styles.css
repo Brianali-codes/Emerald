@@ -12,6 +12,9 @@ body {
     color: #333;
     line-height: 1.6;
 }
+body::-webkit-scrollbar {
+  display: none; 
+}
 svg {
     display: block;
     margin: 0;
